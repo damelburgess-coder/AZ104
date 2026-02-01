@@ -1,8 +1,8 @@
 
 #ive screenshotted both USERA and USERB roles which shows one only having reader and another having contributor for there resource groups. 
 
-https://github.com/damelburgess-coder/AZ104/blob/a4647f4029af7f7904aa3359bfe6fb838e707e78/rg-prod-reader-evidence.png
-https://github.com/damelburgess-coder/AZ104/blob/a4647f4029af7f7904aa3359bfe6fb838e707e78/rg-dev-contributor-evidence.png
+![image alt}(https://github.com/damelburgess-coder/AZ104/blob/a4647f4029af7f7904aa3359bfe6fb838e707e78/rg-prod-reader-evidence.png)
+![image alt}(https://github.com/damelburgess-coder/AZ104/blob/a4647f4029af7f7904aa3359bfe6fb838e707e78/rg-dev-contributor-evidence.png)
 
 
 ### Authorization Enforcement Test
@@ -18,5 +18,6 @@ Message: The client 'USERB' with object id '56000......' does not have authoriza
 
 #This confirms RBAC correctly blocked privileged operations.
 
-https://github.com/damelburgess-coder/AZ104/blob/a4647f4029af7f7904aa3359bfe6fb838e707e78/Screenshot%202026-01-31%20164636.png
-https://github.com/damelburgess-coder/AZ104/blob/a4647f4029af7f7904aa3359bfe6fb838e707e78/Screenshot%202026-01-31%20164537.png
+![image alt}(https://github.com/damelburgess-coder/AZ104/blob/a4647f4029af7f7904aa3359bfe6fb838e707e78/Screenshot%202026-01-31%20164636.png)
+![image alt}(https://github.com/damelburgess-coder/AZ104/blob/a4647f4029af7f7904aa3359bfe6fb838e707e78/Screenshot%202026-01-31%20164537.png)
+
