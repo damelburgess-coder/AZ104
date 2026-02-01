@@ -1,0 +1,17 @@
+
+#ive screenshotted both USERA and USERB roles which shows one only having reader and another having contributor for there resource groups. 
+
+
+
+### Authorization Enforcement Test
+
+Attempted to register a resource provider using a Reader-scoped user:
+
+az provider register --namespace Microsoft.OperationalInsights
+(AuthorizationFailed) The client 'USERB' with object id '56000....' does not have authorization to perform action 'Microsoft.OperationalInsights/register/action' over scope '/subscriptions/10xxxxxxxxxxxxx' or the scope is invalid. If access was recently granted, please refresh your credentials.
+Code: AuthorizationFailed
+Message: The client 'USERB' with object id '56000......' does not have authorization to perform action 'Microsoft.OperationalInsights/register/action' over scope '/subscriptions/10xxxxxxxxxxxxx' or the scope is invalid
+
+
+
+#This confirms RBAC correctly blocked privileged operations.

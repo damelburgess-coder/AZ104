@@ -1,0 +1,18 @@
+
+
+#scripts below show resource group creation for prod and dev
+
+az group create --name rg-prod --location eastus
+
+az group create --name rg-dev --location eastus
+
+#creating users(if needed)
+az ad user create --display-name USERAdisplayname --password <createapassword> --user-principal-name USERA.domain.onmicrosoft.com
+
+
+#adding roles to USERA and USERB
+
+az role assignment create --assignee <USERA> --role Contributor --scope subscriptions/<$id>/resourceGroups/rg-prod
+
+az role assignment create --assignee <USERA> --role Contributor --scope subscriptions/<$id>/resourceGroups/rg-dev
+
