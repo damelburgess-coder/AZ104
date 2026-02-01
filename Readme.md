@@ -1,8 +1,4 @@
 README.md
-evidence/
-scripts/
-architecture/
-
 
 #Azure governance & rbac lab
 ##overview
@@ -58,4 +54,5 @@ Subscription
 ## Tools Used
 - Azure Portal
 - Azure CLI
+
 - Microsoft Entra ID
